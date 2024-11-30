@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema({
     name:String,
     Email: String,
     Age: Number,
-})
+})  
 
 // const Employee = mongoose.model("Employee",userSchema)
 
@@ -97,6 +97,8 @@ const User = mongoose.model("User",userSchema)
     
 // })
 
+// -----------------------------------------------------------------------------------
+
 
 // To Update
 
@@ -120,6 +122,8 @@ const User = mongoose.model("User",userSchema)
 //     console.log(err);
     
 // }));
+
+// -----------------------------------------------------------------------------------
 
 // To delete 
 
